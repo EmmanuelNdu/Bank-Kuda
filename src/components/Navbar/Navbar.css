@@ -1,0 +1,45 @@
+.kuda__navbar {
+    box-shadow: 0 4px 13px rgba(0, 0, 0, .05);
+    height: 70px;
+    left: 0;
+    position: fixed;
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 1rem;
+    /* border-radius: 2px solid; */
+    text-decoration: none;
+    padding: 0;
+    padding-inline: 100px;
+    margin: 0;
+}
+
+.nav_left {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 120px;
+    align-items: center;
+    flex-direction: row;
+    width: 50%;
+    
+}
+.kuda__navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    list-style: none;
+    align-items: left;
+    padding: 1rem;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.kuda__navbar-signin {
+    justify-content: space-between;
+}
