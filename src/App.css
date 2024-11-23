@@ -33,3 +33,10 @@ body {
 .read-the-docs {
   color: #888;
 }
+
+.btn-kuda {
+  /* animation: jump 0.5s ease-in-out infinite; */
+  background: #40196d;
+  color: #fff
+
+}
