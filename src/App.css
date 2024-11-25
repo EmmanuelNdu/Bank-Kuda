@@ -1,42 +1,32 @@
-#root {
-  /* max-width: 1280px; */
-  /* margin: 0 auto; */
-  /* padding: 2rem; */
-  text-align: center;
-}
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 body {
   margin: 0;
 }
 
-
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
-
-.btn-kuda {
-  /* animation: jump 0.5s ease-in-out infinite; */
-  background: #40196d;
-  color: #fff
-
+#root {
+  --primaryColor: #40196d;
+  --lightBlueColor: #1dcbef;
+  --blackColor: #000;
+  --successColor: #18864b;
+  --negativeColor: #f7685b;
+  --textColor: #636369;
+  --whiteColor: #fff;
+  --whiteAlt: #fff;
+  --darkAlt: #000;
+  --offWhite: #f9f9f9;
+  --offWhiteTrans: hsla(228, 7%, 87%, .3);
+  --borderOff: hsla(228, 7%, 87%, .5);
+  --offText: rgba(0, 0, 0, .5);
+  --bgOffset: #f4f4f4;
+  --placeHolder: #636369;
+  --offBlue: #eff1ff;
+  --boxShadow: rgba(64, 25, 109, .07);
+  --offBlueTran: rgba(223, 227, 255, .3);
+  --primaryAlt: #40196d;
+  --offGreen: rgba(72, 211, 138, .5);
+  --ctaOffBlue: rgba(64, 25, 109, .3);
+  --overlay: rgba(64, 25, 109, .2);
+  --successColorTrans: #dcffec;
 }

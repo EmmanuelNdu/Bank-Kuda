@@ -1,7 +1,6 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState } from 'react'
 import './App.css'
-import Navbar from '../src/components/Navbar/Navbar';
+import Navbar from './components/Navbar'
 
 function App() {
   const [count, setCount] = useState(0)
