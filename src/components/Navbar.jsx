@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <nav className='sticky top-0 z-50 py-3 shadow-bar_shadow border-neutral-700/80 '>
-        <div className='container px-4 mx-auto relative text-sm '>
+        <div className='container px-4 mx-auto relative text-sm text-[#40196d]'>
             <div className='flex justify-between items-center text-base '>
                 <div className='flex items-center flex-shrink-0'>
                     <img className="h-15 w-20 ml-4" src={logo}alt="logo"/>
@@ -31,7 +31,7 @@ const Navbar = () => {
                     <a href='#' className='py-3 px-5  rounded-md font-medium'>
                         Sign in 
                     </a>
-                    <a href='#' className=' py-3 px-10 font-medium border rounded-md bg-[#40196d] text-white text-base
+                    <a href='#' className=' py-3 px-10 font-medium border rounded-xl bg-[#40196d] text-white text-base
                      transform transition-transform duration-300 hover:translate-y-[-4px]
                      '>
                         Join Kuda
