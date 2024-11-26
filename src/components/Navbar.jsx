@@ -21,7 +21,9 @@ const Navbar = () => {
                     <a href='#' className='py-3 px-5  rounded-md '>
                         Sign in 
                     </a>
-                    <a href='#' className=' py-3 px-10 border rounded-md bg-[#40196d] text-white text-base'>
+                    <a href='#' className=' py-3 px-10 border rounded-md bg-[#40196d] text-white text-base
+                     transform transition-transform duration-300 hover:translate-y-[-4px]
+                     '>
                         Join Kuda
                     </a>
                 </div>
