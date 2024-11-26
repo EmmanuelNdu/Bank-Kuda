@@ -1,5 +1,7 @@
 import React from 'react'
 
+
+
 const MoneyApp = () => {
   return (
     <div className=' firstSection flex flex-col mt-64 ml-64 '>

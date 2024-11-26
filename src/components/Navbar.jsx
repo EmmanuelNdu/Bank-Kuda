@@ -1,9 +1,7 @@
 import {React, useState} from 'react'
 import { Menu, X } from 'lucide-react'
 import logo from '../assets/logo.png'
-import nija_logo from '../assets/nija.svg'
 import { navItems, navItems_m } from '../constants'
-import { nija } from '../constants'
 
 const NaijaLogo = () => {
     return (
