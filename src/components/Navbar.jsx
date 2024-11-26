@@ -1,7 +1,7 @@
 import {React, useState} from 'react'
 import { Menu, X } from 'lucide-react'
 import logo from '../assets/logo.png'
-import { navItems } from '../constants'
+import { navItems, navItems_m } from '../constants'
 
 const Navbar = () => {
 
@@ -17,14 +17,15 @@ const Navbar = () => {
             <div className='flex justify-between items-center text-base '>
                 <div className='flex items-center flex-shrink-0'>
                     <img height={90} width={90}  className="ml-4" src={logo}alt="logo"/>
-                </div>
-                <ul className='hidden lg:flex ml-14 space-x-12 '>
+                    <ul className='hidden lg:flex ml-14 space-x-12 '>
                     {navItems.map((item, index) => (
                         <li key={index}>
                             <a href={item.href} >{item.label}</a>
                         </li>
                     ))}
                 </ul>
+                </div>
+               
                 <div className='hidden lg:flex justify-center space-x-12 items-center '>
                     <a href='#' className='py-3 px-5  rounded-md '>
                         Sign in 
@@ -42,11 +43,19 @@ const Navbar = () => {
                 </div>
             </div>
             {mobileDrawerOpen && (
-                <div className='fixed right-0 z-20 bg-neutral-900 w-full p-12 
-                flex flex-col justify-center items-center lg:hidden'>
+                <div className='fixed right-0 z-20 bg-white w-full p-12 
+                flex flex-col justify-center items-left lg:hidden'>
+                    <div className='flex space-x-6'>
+                        <a href='#' className='py-2 px-6 border rounded-md bg-[#40196d] text-white'>
+                            Join kuda
+                        </a>
+                        <a href='#' className='py-2 px-6 border rounded-md bg-[#eff1ff] text-[#40196d]'>
+                            Sign In
+                        </a>
+                    </div>
                     <ul>
-                        {navItems.map((item, index) => (
-                            <li key={index}>
+                        {navItems_m.map((item, index) => (
+                            <li key={index} className='py-6  border-b border-gray-300 py-2'>
                                 <a href={item.href}>{ item.label}</a>
                             </li>
                         ))}
