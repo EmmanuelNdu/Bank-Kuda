@@ -1,3 +1,5 @@
+import { CreditCard } from "lucide-react";
+
 export const navItems = [
     { label: "Personal", href:"#" },
     { label: "Business", href:"#" },
@@ -24,5 +26,29 @@ export const nija =
                 <defs><clipPath id="clip0_37774_3385_bc"><rect width="29.1892" height="21.8919" fill="white" transform="translate(0.324219 4.1355)">
                     </rect></clipPath></defs></svg>
 
+export const features = [ 
+    {
+        icon: <CreditCard />,
+        text: "Order a Kuda card on the app with pickup and delivery options."
+    },
 
+    {
+        icon: <chart-pie />,
+        text: "Enjoy cashless payment options online and offline."
+    },
 
+    {
+        icon: <scale />,
+        text: "Pay your essential bills and buy gift cards easily."
+    },
+
+    {
+        icon: <navigation />,
+        text: "Get 25 free transfers to Nigerian banks every month."
+    },
+
+    {
+        icon: <piggy-bank />,
+        text: "Save money automatically any time you spend."
+    },
+]
