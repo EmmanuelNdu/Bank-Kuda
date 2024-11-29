@@ -2,7 +2,7 @@ import React from 'react'
 
 const Fourth = () => {
   return (
-    <div>
+    <div className='flex'>
         <div className='ml-auto'>
         <h1 className=' font-bold text-4xl text-[#40196d] mt-64 justify-end'>It’s your money, we just<br/>
              help you manage it.</h1>
