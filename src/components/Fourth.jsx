@@ -3,8 +3,8 @@ import React from 'react'
 const Fourth = () => {
   return (
     <div>
-        <div className='font-bold'>
-        <h1 className=' font-bold text-4xl text-[#40196d] mt-64'>It’s your money, we just<br/>
+        <div className=''>
+        <h1 className=' font-bold text-4xl text-[#40196d] mt-64 justify-end'>It’s your money, we just<br/>
              help you manage it.</h1>
              <p className='mt-10 font-normal  text-lg tracking-tight'>Save it, spend it, send it. It’s up to you.<br/>
               Whatever you choose to do with your money,<br/>
