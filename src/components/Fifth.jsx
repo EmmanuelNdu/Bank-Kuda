@@ -11,10 +11,8 @@ const Fifth = () => {
         spend it, seriously.
         </h1>
         <p className='mt-10 font-normal  text-lg tracking-tight'>
-        We designed a money app for your lifestyle,<br />
-         and you can get a debit card to go with it.<br />
-          That's all you need to make the right money<br />
-           moves.
+        You can’t avoid spending. That’s how you pay <br />
+        for your needs. But we can help you put money away every time you pay for something. Just set a percentage to save and watch your money grow.
         </p>
         <a className='underline inline-flex text-[#40196d] font-semibold' href='https://account.com'>Open An Account in Minutes<ChevronRight/></a>
         </div>
