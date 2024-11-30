@@ -1,6 +1,6 @@
 import React from 'react'
 import { ChevronRight } from 'lucide-react'
-import lady from '../assets/lady.png'
+import purple from '../assets/purple.png'
 
 const Sixth = () => {
   return (
