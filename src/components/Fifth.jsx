@@ -17,7 +17,7 @@ const Fifth = () => {
          set a percentage to save and watch your <br />
          money grow.
         </p>
-        <a className='underline inline-flex text-[#40196d] font-semibold' href='https://account.com'>Open An Account in Minutes<ChevronRight/></a>
+        <a className='underline inline-flex text-[#40196d] font-semibold' href='https://account.com'>See all our Savings<ChevronRight/></a>
         </div>
         <img  className='ml-48' src={lady} />
     </div>
