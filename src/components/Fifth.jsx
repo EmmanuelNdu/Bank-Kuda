@@ -14,7 +14,8 @@ const Fifth = () => {
         You can’t avoid spending. That’s how you pay <br />
         for your needs. But we can help you put money <br />
          away every time you pay for something. Just <br />
-         set a percentage to save and watch your money grow.
+         set a percentage to save and watch your <br />
+         money grow.
         </p>
         <a className='underline inline-flex text-[#40196d] font-semibold' href='https://account.com'>Open An Account in Minutes<ChevronRight/></a>
         </div>
