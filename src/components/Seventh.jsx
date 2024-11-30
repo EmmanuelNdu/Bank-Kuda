@@ -11,13 +11,13 @@ const Seventh = () => {
         help you.
         </h1>
         <p className='mt-10 font-normal  text-lg tracking-tight'>
-        You can’t avoid spending. That’s how you pay <br />
-        for your needs. But we can help you put money <br />
-         away every time you pay for something. Just <br />
-         set a percentage to save and watch your <br />
-         money grow.
+        You can chat with us on the app, slide into our <br />
+        DMs, tweet, leave an Instagram comment, <br />
+        send an email or call. However you choose to <br />
+        reach out, there’ll always be a friendly person <br />
+        there to make your life easy.
         </p>
-        <a className='underline inline-flex text-[#40196d] font-semibold' href='https://account.com'>See all our Savings<ChevronRight/></a>
+        <a className='underline inline-flex text-[#40196d] font-semibold' href='https://account.com'>Get Help<ChevronRight/></a>
         </div>
         <img  className='ml-48' src={lady} />
     </div>
