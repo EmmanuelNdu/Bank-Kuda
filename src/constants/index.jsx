@@ -1,4 +1,4 @@
-import { CreditCard, Smile } from "lucide-react";
+import { CreditCard, Smile, Laugh } from "lucide-react";
 
 export const navItems = [
     { label: "Personal", href:"#" },
@@ -61,7 +61,7 @@ export const testimonys = [
     },
 
     {
-        icon: <Smile />,
+        icon: <Laugh />,
         words: "The mobile check deposit feature is super convenient. I can deposit checks anytime without going to the bank!",
         names: " John R. "
     },
@@ -73,7 +73,7 @@ export const testimonys = [
     },
 
     {
-        icon: <Smile />,
+        icon: <Laugh />,
         words: "The spending tracker helps me stay on top of my budget. I’ve never been more organized with my finances!",
         names: " Mike S. "
     },
