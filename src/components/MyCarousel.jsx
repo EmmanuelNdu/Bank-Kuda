@@ -19,12 +19,12 @@ const MyCarousel = () => {
     superLarge: {
       // screens greater than 4000px
       breakpoint: { max: 4000, min: 3000 },
-      items: 7,
+      items: 4,
     },
     large: {
       // screens between 1024px and 3000px
       breakpoint: { max: 3000, min: 1024 },
-      items: 7,
+      items: 4,
     },
     medium: {
       // screens between 768px and 1024px
@@ -39,10 +39,10 @@ const MyCarousel = () => {
   };
 
   return (
-    <Carousel responsive={responsive} autoPlay={true} autoPlaySpeed={2000} infinite>
+    <Carousel responsive={responsive} autoPlay={true} autoPlaySpeed={4000} infinite>
       {carouselItems.map((item, index) => (
         
-        <div key={index} style={{ padding: '10px', textAlign: 'center', backgroundColor: '#f0f0f0' }}>
+        <div className='p-10 shadow-bar_shadow br-8px background-20px' key={index} style={{ textAlign: 'center'}}>
           <h3>{item}</h3>
         </div>
       ))}
