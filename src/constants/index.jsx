@@ -53,7 +53,7 @@ export const features = [
     },
 ]
 
-export const testimonys = [
+export const testimoneys = [
     {
         icon: <Smile />,
         words: "I love how easy it is to check my balance and transfer funds with just a few taps. This app is a game-changer!",
