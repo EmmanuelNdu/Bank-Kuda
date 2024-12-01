@@ -1,4 +1,4 @@
-import { CreditCard } from "lucide-react";
+import { CreditCard, Smile } from "lucide-react";
 
 export const navItems = [
     { label: "Personal", href:"#" },
@@ -55,43 +55,43 @@ export const features = [
 
 export const testimonys = [
     {
-        icon: <></>,
+        icon: <Smile />,
         words: "I love how easy it is to check my balance and transfer funds with just a few taps. This app is a game-changer!",
         names: "Sarah l. "
     },
 
     {
-        icon: <></>,
+        icon: <Smile />,
         words: "The mobile check deposit feature is super convenient. I can deposit checks anytime without going to the bank!",
         names: " John R. "
     },
 
     {
-        icon: <></>,
+        icon: <Smile />,
         words: "With this app, I can manage my finances on the go. It’s fast, reliable, and user-friendly.",
         names: "  Emily T. "
     },
 
     {
-        icon: <></>,
+        icon: <Smile />,
         words: "The spending tracker helps me stay on top of my budget. I’ve never been more organized with my finances!",
         names: " Mike S. "
     },
 
     {
-        icon: <></>,
+        icon: <Smile />,
         words: "I can quickly send money to my friends and family, and the transfers are instant. No more waiting!",
         names: "  Jessica W. "
     },
 
     {
-        icon: <></>,
+        icon: <Smile />,
         words: "The loan application process was so simple and fast. I got approved within minutes",
         names: " Mira ank"
     },
 
     {
-        icon: <></>,
+        icon: <Smile />,
         words: "The app is super quick and easy to use. I love how I can access everything I need in just a few taps",
         names: "Ben A"
     },
