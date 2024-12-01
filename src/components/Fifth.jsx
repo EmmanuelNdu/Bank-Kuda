@@ -6,7 +6,7 @@ const Fifth = () => {
   return (
     <div className='flex  flex-wrap mt-10 lg:mt-48 ml-4 '>
       <div className='ml-60'>
-        <h1 className='font-extrabold text-4xl text-[#40196d] leading-snug'>
+        <h1 className='font-black text-4xl text-[#40196d] leading-snug'>
         Save money as you <br />
         spend it, seriously.
         </h1>
