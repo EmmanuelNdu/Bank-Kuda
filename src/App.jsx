@@ -11,6 +11,7 @@ import Seventh from './components/Seventh'
 import Fee from './components/Fee'
 import Last from './components/Last'
 import MyCarousel from './components/MyCarousel'
+import Freedom from './components/Freedom'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -28,6 +29,7 @@ function App() {
     <Fee />
     <Last />
     <MyCarousel />
+    <Freedom />
     </>
   )
 }

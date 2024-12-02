@@ -53,49 +53,7 @@ export const features = [
     },
 ]
 
-export const testimoneys = [
-    {
-        icon: <Smile />,
-        words: "I love how easy it is to check my balance and transfer funds with just a few taps. This app is a game-changer!",
-        names: "Sarah l. "
-    },
 
-    {
-        icon: <Laugh />,
-        words: "The mobile check deposit feature is super convenient. I can deposit checks anytime without going to the bank!",
-        names: " John R. "
-    },
-
-    {
-        icon: <Smile />,
-        words: "With this app, I can manage my finances on the go. It’s fast, reliable, and user-friendly.",
-        names: "  Emily T. "
-    },
-
-    {
-        icon: <Laugh />,
-        words: "The spending tracker helps me stay on top of my budget. I’ve never been more organized with my finances!",
-        names: " Mike S. "
-    },
-
-    {
-        icon: <Smile />,
-        words: "I can quickly send money to my friends and family, and the transfers are instant. No more waiting!",
-        names: "  Jessica W. "
-    },
-
-    {
-        icon: <Smile />,
-        words: "The loan application process was so simple and fast. I got approved within minutes",
-        names: " Mira ank"
-    },
-
-    {
-        icon: <Smile />,
-        words: "The app is super quick and easy to use. I love how I can access everything I need in just a few taps",
-        names: "Ben A"
-    },
-]
 
 const carouselItems = [
     "I love how easy it is to check my balance and transfer funds with just a few taps. This app is a game-changer!",
