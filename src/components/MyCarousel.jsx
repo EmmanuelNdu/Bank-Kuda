@@ -39,11 +39,11 @@ const MyCarousel = () => {
   };
 
   return (
-    <Carousel responsive={responsive} autoPlay={true} autoPlaySpeed={4000} infinite>
+    <Carousel responsive={responsive} autoPlay={true} autoPlaySpeed={4000} arrows={false}  infinite={true}>
       {carouselItems.map((item, index) => (
         
-        <div className='p-10 shadow-bar_shadow br-8px background-20px pb-32 items-center' key={index}>
-          <h3>{item}</h3>
+        <div className='flex p-10 bg-bar_shadow border-white br-8px background-20px pb-32 items-center' key={index}>
+          <h3>{item}</h3> 
         </div>
       ))}
     </Carousel>

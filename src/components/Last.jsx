@@ -5,7 +5,7 @@ const Last = () => {
   return (
     <div className=' flex justify-center '>
         <p className='font-black text-4xl text-[#40196d] leading-snug mb-20'>Don’t just take our word for it</p>
-        <div className='pb-40'>
+        <div className='pb-32'>
         < MyCarousel />
         </div>
     </div>
