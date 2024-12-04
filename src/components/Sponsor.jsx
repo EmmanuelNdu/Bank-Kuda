@@ -8,13 +8,15 @@ import euro from '../assets/euro.png'
 
 const Sponsor = () => {
   return (
-    <div className='flex'>
-      <img src={techcrunch} />
-      <img src={eco} />
-      <img src={fintech2} />
-      <img src={bbc} />
-      <img src={cnbc} />
-      <img src={euro} />
+    <div className='flex justify-between p-10'>
+      
+      <a href='techcrunch.com'><img className='w-24 h-24' src={techcrunch} /> </a>
+      <a href='eco.com'>  <img className='w-24 h-24' src={eco} /></a>
+      <a href='fintech.com'><img className='w-24 h-24' src={fintech2} /></a>
+      <a href='bbc.com'><img className='w-24 h-24' src={bbc} /></a>
+      <a href='cnbc.com'><img className='w-24 h-24' src={cnbc} /></a>
+      <a href='euro.com'><img className='w-24 h-24' src={euro} /></a>
+      
 
     </div>
   )
