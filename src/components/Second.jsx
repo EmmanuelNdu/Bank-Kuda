@@ -7,7 +7,7 @@ const Second = () => {
         {features.map((feature, index) => (
             <div key={index} className="w-40 h-30 sm:1/2 lg:w-1/3 mt-32 shadow-bar_shadow  border-2 justify-between">
                 <div className='flex h-6  w-6 p-4 bg-[#40196d] 
-                justify-center items-center rounded-full ml-10 '>
+                items-center rounded-full ml-10 '>
                     {feature.icon}
                 </div>
                 <div>
