@@ -64,3 +64,5 @@ const carouselItems = [
     "I can quickly send money to my friends and family, and the transfers are instant. No more waiting!",
     "The loan application process was so simple and fast. I got approved within minutes",
   ];
+
+  
