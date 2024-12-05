@@ -11,7 +11,7 @@ const Partners = () => {
         <div className='flex justify-center items-center'>
              <h1 className=" font-black text-4xl text-[#40196d] leading-snug pt-20">Our Partners</h1>
         </div>
-         <div className='flex justify-between pl-72 pr-72 pt-24'>
+         <div className='flex justify-between pl-72 pr-72 pt-24 pb-14'>
             <a href='valar.com'><img  className='w-20 h-14' src={valar} /></a>
             <a href='entree.com'><img className='w-20 h-14'  src={entree} /></a>
             <a href='sbi.com'><img className='w-20 h-14'  src={sbi} /></a>

@@ -14,6 +14,7 @@ import MyCarousel from './components/MyCarousel'
 import Freedom from './components/Freedom'
 import Sponsor from './components/Sponsor'
 import Partners from './components/Partners'
+import Need from './components/Need'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -34,6 +35,7 @@ function App() {
     <Freedom />
     <Sponsor />
     <Partners />
+    <Need />
     </>
   )
 }
