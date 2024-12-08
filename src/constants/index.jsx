@@ -122,3 +122,36 @@ export const first_Table = [
         kuda: "25 free transfers every month"
     }
 ]
+
+export const f_table = [
+    {text: "Transfer Fee"},
+    {text: "Card Delivery"},
+    {text: "Card Maintenance Fee"},
+    {text: "Alerts"},
+    {text: "Annual Interest"},
+    {text: "Bill Payment Fee"},
+    {text: "Instant Reversal"},
+    {text: "Maintenance"}
+];
+
+export const s_table = [
+    {text: "Up to ₦50 plus V.A.T."},
+    {text: "smiley"},
+    {text: "Up to N50 per quater"},
+    {text: "Charge for SMS alerts"},
+    {text: "4%"},
+    {text: "Up to N100 per bill"},
+    {text: "smiley"},
+    {text: "yes"},
+];
+
+export const t_table = [
+    {text: "25 free transfers every month"},
+    {text: "Yes"},
+    {text: "No"},
+    {text: "Free instant notifications"},
+    {text: "Up to 12%"},
+    {text: "No"},
+    {text: "Yes"},
+    {text: "No"}
+];
