@@ -1,4 +1,4 @@
-import { CreditCard, Smile, Laugh } from "lucide-react";
+import { CreditCard, Fingerprint } from "lucide-react";
 
 export const navItems = [
     { label: "Personal", href:"#" },
@@ -28,27 +28,27 @@ export const nija =
 
 export const features = [ 
     {
-        icon: <CreditCard />,
+        icon: <Fingerprint />,
         text: "Order a Kuda card on the app with pickup and delivery options."
     },
 
     {
-        icon: <chart-pie />,
+        icon: <Fingerprint />,
         text: "Enjoy cashless payment options online and offline."
     },
 
     {
-        icon: <scale />,
+        icon:<Fingerprint />,
         text: "Pay your essential bills and buy gift cards easily."
     },
 
     {
-        icon: <navigation />,
+        icon: <Fingerprint />,
         text: "Get 25 free transfers to Nigerian banks every month."
     },
 
     {
-        icon: <piggy-bank />,
+        icon: <CreditCard />,
         text: "Save money automatically any time you spend."
     },
 ]
@@ -65,4 +65,60 @@ const carouselItems = [
     "The loan application process was so simple and fast. I got approved within minutes",
   ];
 
-  
+export const first_Table = [
+    {
+        primary: "Transfer Fee",
+        icon: <circle-minus/>,
+        text: "Up to ₦50 plus V.A.T.",
+        kuda: "25 free transfers every month"
+    },
+
+    {
+        primary: "Card Delivery",
+        icon: <circle-minus/>,
+        text: "Yes",
+        kuda: "25 free transfers every month"
+    },
+
+    {
+        primary: "Transfer Fee",
+        icon: <circle-minus/>,
+        text: "Up to ₦50 plus V.A.T.",
+        kuda: "25 free transfers every month"
+    },
+
+    {
+        primary: "Transfer Fee",
+        icon: <circle-minus/>,
+        text: "Up to ₦50 plus V.A.T.",
+        kuda: "25 free transfers every month"
+    },
+
+    {
+        primary: "Transfer Fee",
+        icon: <circle-minus/>,
+        text: "Up to ₦50 plus V.A.T.",
+        kuda: "25 free transfers every month"
+    },
+
+    {
+        primary: "Transfer Fee",
+        icon: <circle-minus/>,
+        text: "Up to ₦50 plus V.A.T.",
+        kuda: "25 free transfers every month"
+    },
+
+    {
+        primary: "Transfer Fee",
+        icon: <circle-minus/>,
+        text: "Up to ₦50 plus V.A.T.",
+        kuda: "25 free transfers every month"
+    },
+
+    {
+        primary: "Transfer Fee",
+        icon: <circle-minus/>,
+        text: "Up to ₦50 plus V.A.T.",
+        kuda: "25 free transfers every month"
+    }
+]

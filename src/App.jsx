@@ -17,7 +17,6 @@ import Partners from './components/Partners'
 import Need from './components/Need'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
