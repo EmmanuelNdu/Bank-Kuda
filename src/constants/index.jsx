@@ -1,4 +1,4 @@
-import { Check, Coins, CreditCard, Fingerprint, smile } from "lucide-react";
+import { Check, Coins, CreditCard, Fingerprint } from "lucide-react";
 
 export const navItems = [
     { label: "Personal", href:"#" },
