@@ -1,4 +1,4 @@
-import { CreditCard, Fingerprint } from "lucide-react";
+import { Check, Coins, CreditCard, Fingerprint, smile } from "lucide-react";
 
 export const navItems = [
     { label: "Personal", href:"#" },
@@ -65,63 +65,6 @@ const carouselItems = [
     "The loan application process was so simple and fast. I got approved within minutes",
   ];
 
-export const first_Table = [
-    {
-        primary: "Transfer Fee",
-        icon: <circle-minus/>,
-        text: "Up to ₦50 plus V.A.T.",
-        kuda: "25 free transfers every month"
-    },
-
-    {
-        primary: "Card Delivery",
-        icon: <circle-minus/>,
-        text: "Yes",
-        kuda: "25 free transfers every month"
-    },
-
-    {
-        primary: "Transfer Fee",
-        icon: <circle-minus/>,
-        text: "Up to ₦50 plus V.A.T.",
-        kuda: "25 free transfers every month"
-    },
-
-    {
-        primary: "Transfer Fee",
-        icon: <circle-minus/>,
-        text: "Up to ₦50 plus V.A.T.",
-        kuda: "25 free transfers every month"
-    },
-
-    {
-        primary: "Transfer Fee",
-        icon: <circle-minus/>,
-        text: "Up to ₦50 plus V.A.T.",
-        kuda: "25 free transfers every month"
-    },
-
-    {
-        primary: "Transfer Fee",
-        icon: <circle-minus/>,
-        text: "Up to ₦50 plus V.A.T.",
-        kuda: "25 free transfers every month"
-    },
-
-    {
-        primary: "Transfer Fee",
-        icon: <circle-minus/>,
-        text: "Up to ₦50 plus V.A.T.",
-        kuda: "25 free transfers every month"
-    },
-
-    {
-        primary: "Transfer Fee",
-        icon: <circle-minus/>,
-        text: "Up to ₦50 plus V.A.T.",
-        kuda: "25 free transfers every month"
-    }
-]
 
 export const f_table = [
     {text: "Transfer Fee"},
@@ -135,23 +78,39 @@ export const f_table = [
 ];
 
 export const s_table = [
-    {text: "Up to ₦50 plus V.A.T."},
-    {text: "smiley"},
-    {text: "Up to N50 per quater"},
-    {text: "Charge for SMS alerts"},
-    {text: "4%"},
-    {text: "Up to N100 per bill"},
-    {text: "smiley"},
-    {text: "yes"},
+    {   icon: <Coins />,
+        text: "Up to ₦50 plus V.A.T."},
+    {   icon: <Coins />,
+        text: "smiley"},
+    {   icon: <Coins />,
+        text: "Up to N50 per quater"},
+    {   icon: <Coins />,
+        text: "Charge for SMS alerts"},
+    {   icon: <Coins />,
+        text: "4%"},
+    {   icon: <Coins />,
+        text: "Up to N100 per bill"},
+    {   icon: <Coins />,
+        text: "smiley"},
+    {   icon: <Coins />,
+        text: "yes"},
 ];
 
 export const t_table = [
-    {text: "25 free transfers every month"},
-    {text: "Yes"},
-    {text: "No"},
-    {text: "Free instant notifications"},
-    {text: "Up to 12%"},
-    {text: "No"},
-    {text: "Yes"},
-    {text: "No"}
+    {   icon: <Check />,
+        text: "25 free transfers every month"},
+    {   icon: < Check />,
+        text: "Yes"},
+    {   icon: <Check />,
+        text: "No"},
+    {   icon: <Check />,
+        text: "Free instant notifications"},
+    {   icon: <Check />,
+        text: "Up to 12%"},
+    {   icon: <Check />,
+        text: "No"},
+    {   icon: <Check />,
+        text: "Yes"},
+    {   icon: <Check />,
+        text: "No"}
 ];
