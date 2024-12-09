@@ -15,6 +15,7 @@ import Freedom from './components/Freedom'
 import Sponsor from './components/Sponsor'
 import Partners from './components/Partners'
 import Need from './components/Need'
+import More from './components/More'
 
 function App() {
 
@@ -35,6 +36,7 @@ function App() {
     <Sponsor />
     <Partners />
     <Need />
+    <More />
     </>
   )
 }
