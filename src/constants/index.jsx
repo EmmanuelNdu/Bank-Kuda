@@ -129,8 +129,7 @@ export const  kuda_business = [
         title: "Transfer & Spend",
         features: [
             "Send money for free to any Nigerian",
-             "account with 25 free transfers every",
-             "month.",
+             "account with 25 free transfers every",             "month.",
         ],
     },
     {

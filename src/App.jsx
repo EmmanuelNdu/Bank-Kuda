@@ -16,6 +16,7 @@ import Sponsor from './components/Sponsor'
 import Partners from './components/Partners'
 import Need from './components/Need'
 import More from './components/More'
+import Purple from './components/Purple'
 
 function App() {
 
@@ -37,6 +38,7 @@ function App() {
     <Partners />
     <Need />
     <More />
+    <Purple />
     </>
   )
 }
