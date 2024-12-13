@@ -120,8 +120,8 @@ export const  kuda_business = [
         title: "Kuda Business",
         features: [
            "Grow your business with our all-in-one", 
-           " business manager. Get a POS, bulk ",
-          "  transfers, payroll and more.",
+           "business manager. Get a POS, bulk",
+          "transfers, payroll and more.",
         ],
     },
 
@@ -138,7 +138,7 @@ export const  kuda_business = [
         features: [
             "Get up to ₦150,000 in your Kuda",
            "account easily and repay in convenient",
-              "instalments."
+              "instalments.",
         ],
     },
-] 
+]; 
