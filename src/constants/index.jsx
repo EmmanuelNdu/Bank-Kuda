@@ -114,3 +114,31 @@ export const t_table = [
     {   icon: <Check />,
         text: "No"}
 ];
+
+export const  kuda_business = [
+    {
+        title: "Kuda Business",
+        features: [
+           "Grow your business with our all-in-one", 
+           " business manager. Get a POS, bulk ",
+          "  transfers, payroll and more.",
+        ],
+    },
+
+    {
+        title: "Transfer & Spend",
+        features: [
+            "Send money for free to any Nigerian",
+             "account with 25 free transfers every",
+             "month.",
+        ],
+    },
+    {
+        title: "Loans",
+        features: [
+            "Get up to ₦150,000 in your Kuda",
+           "account easily and repay in convenient",
+              "instalments."
+        ],
+    },
+] 
