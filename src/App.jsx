@@ -11,7 +11,6 @@ import Seventh from './components/Seventh'
 import Fee from './components/Fee'
 import Last from './components/Last'
 import MyCarousel from './components/MyCarousel'
-import Freedom from './components/Freedom'
 import Sponsor from './components/Sponsor'
 import Partners from './components/Partners'
 import Need from './components/Need'
@@ -34,7 +33,6 @@ function App() {
     <Fee />
     <Last />
     <MyCarousel />
-    <Freedom />
     <Sponsor />
     <Partners />
     <Need />
