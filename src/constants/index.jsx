@@ -141,3 +141,45 @@ export const  kuda_business = [
         ],
     },
 ]; 
+export const personal = [
+    {href: "#", text: "Discover Personal"},
+    {href: "#", text: "Transfer & Spend"},
+    {href: "#", text: "Save"},
+    {href: "#", text: "Investment"},
+    {href: "#", text: "Kuda Card"},
+];
+
+export const Business = [
+    {href: "#", text: "Discover Business"},
+    {href: "#", text: "Business Registration"},
+    {href: "#", text: "softPOS"},
+    {href: "#", text: "Invoicing"},
+    {href: "#", text: "POS Machine"},
+    {href: "#", text: "Business Loan"},
+    {href: "#", text: "Business API"},
+    {href: "#", text: "Join Kuda Business"},
+];
+
+export const company = [
+    {href: "#", text: "Blog"},
+    {href: "#", text: "Press"},
+    {href: "#", text: "Join Our Team"},
+    {href: "#", text: "About Us"},
+];
+
+export const Help = [
+    {href: "#", text: "Get Help"},
+    {href: "#", text: "Scam Awareness"},
+    {href: "#", text: "FAQs"},
+    {href: "#", text: "Security"},
+    {href: "#", text: "Contact Us"},
+    {href: "#", text: "About Us"},
+];
+
+export const Transparency = [
+    {href: "#", text: "Terms & Conditions"},
+    {href: "#", text: "Privacy & Policy"},
+    {href: "#", text: "Information Security Policy"},
+    {href: "#", text: "Cookie Policy"},
+    {href: "#", text: "Whistleblowing Policy"},
+]
