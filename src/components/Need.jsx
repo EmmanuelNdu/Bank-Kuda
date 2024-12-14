@@ -10,7 +10,7 @@ const Need = () => {
         <div className='flex justify-center pt-20'>
         <h1 className=" font-black text-4xl text-[#40196d] leading-snug mb-20 justify-center items-center">Choose the  freedom you need</h1>
         </div>
-        <div className='flex items-center justify-center ml-56 mr-56 bg-[#f4f4f4]'>
+        <div className='flex items-center justify-center ml-56 mr-56 bg-[#fff] shadow-bar_shadow'>
         <div>
             <h3 className= 'font-black text-2xl text-[#40196d] ml-9'>{"   "}</h3>
             {f_table.map((blu, index) => (
