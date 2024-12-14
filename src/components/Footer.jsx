@@ -9,7 +9,14 @@ import { Transparency } from '../constants'
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <div>
+      <h5>Personal</h5>
+      <div>{personal.map((option, index) => (
+        <div key={index}>
+
+        </div>
+      ))}</div>
+    </div>
   )
 }
 
