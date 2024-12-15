@@ -184,3 +184,30 @@ export const Transparency = [
     {href: "#", text: "Cookie Policy"},
     {href: "#", text: "Whistleblowing Policy"},
 ]
+
+export const contact = [
+    {href: "#", text: "help@kuda.com,"}
+];
+
+export const lagos = [
+    {href: "#", text: "1-11 Commercial Avenue,"},
+    {href: "#", text: "Yaba, Lagos,"},
+    {href: "#", text: "Nigeria,"},
+];
+
+export const London = [
+    {href: "#", text: "5 New Street Square,"},
+    {href: "#", text: "London, EC4A 3TW,"},
+    {href: "#", text: "United Kingdom"},
+];
+export const Capetown = [
+    {href: "#", text: "146 Campground Road,"},
+    {href: "#", text: "Snakepit Building, Level 4,"},
+    {href: "#", text: "Newlands, Cape Town"},
+];
+
+export const Canada = [
+    {href: "#", text: "3080 Yonge Street,"},
+    {href: "#", text: "Suite 6060, Toronto,"},
+    {href: "#", text: "Ontario M4N 3N1"},
+]

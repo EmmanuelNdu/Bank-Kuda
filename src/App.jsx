@@ -17,6 +17,8 @@ import Need from './components/Need'
 import More from './components/More'
 import Purple from './components/Purple'
 import Footer from './components/Footer'
+import Sub_footer from './components/Sub_footer'
+import End from './components/End'
 
 function App() {
 
@@ -39,6 +41,8 @@ function App() {
     <More />
     <Purple />
     <Footer />
+    <Sub_footer />
+    <End />
     </>
   )
 }

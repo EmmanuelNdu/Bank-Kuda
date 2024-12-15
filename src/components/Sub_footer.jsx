@@ -1,21 +1,33 @@
 import React from 'react'
-import { personal } from '../constants'
-import { Business } from '../constants'
-import { company } from '../constants'
-import { Help } from '../constants'
-import { Transparency } from '../constants'
-import logo from '../assets/logo.png'
+import { contact, lagos } from '../constants'
+import { London } from '../constants'
+import { Capetown } from '../constants'
+import { Canada } from '../constants'
 
-
-
-const Footer = () => {
+const Sub_footer = () => {
   return (
-    <div className='flex justify-center space-x-14 pt-2'>
-       <img className="h-16 w-28 ml-4 pt-4" src={logo} alt="logo"/>
+    <div className='flex justify-center space-x-12 pt-20'>
+        <p className=' flex justify-center items-center text-[#40196d]'>Products may vary by country or market.</p>
+
         <div>
-                <h3 className='text-md font-bold mb-4 text-[#40196d]'>Personal</h3>
+                <h3 className='text-md font-bold mb-4 text-[#40196d]'>Contact</h3>
                 <ul className='space-y-2'>
-                    {personal.map((link, index) => (
+                    {contact.map((link, index) => (
+                        <li key={index}>
+                            <a className='hover:text-white'
+                             href={link.href}
+                             >
+                                {link.text}
+                                </a>
+                        </li>
+                    ))}
+                </ul>
+          </div>
+
+        <div>
+                <h3 className='text-md font-bold mb-4 text-[#40196d]'>Lagos</h3>
+                <ul className='space-y-2'>
+                    {lagos.map((link, index) => (
                         <li key={index}>
                             <a className='hover:text-white'
                              href={link.href}
@@ -28,24 +40,9 @@ const Footer = () => {
           </div>
 
           <div>
-                <h3 className='text-md font-bold mb-4 text-[#40196d]'>Business</h3>
+                <h3 className='text-md font-bold mb-4 text-[#40196d]'>London</h3>
                 <ul className='space-y-2'>
-                    {Business.map((link, index) => (
-                        <li key={index}>
-                            <a className=' hover:text-white'
-                             href={link.href}
-                             >
-                                {link.text}
-                                </a>
-                        </li>
-                    ))}
-                </ul>
-          </div>
-
-          <div>
-                <h3 className='text-md font-bold mb-4 text-[#40196d]'>Company</h3>
-                <ul className='space-y-2'>
-                    {company.map((link, index) => (
+                    {London.map((link, index) => (
                         <li key={index}>
                             <a className='hover:text-white'
                              href={link.href}
@@ -58,9 +55,9 @@ const Footer = () => {
           </div>
 
           <div>
-                <h3 className='text-md font-bold mb-4 text-[#40196d]'>Help</h3>
+                <h3 className='text-md font-bold mb-4 text-[#40196d]'>Cape Town</h3>
                 <ul className='space-y-2'>
-                    {Help.map((link, index) => (
+                    {Capetown.map((link, index) => (
                         <li key={index}>
                             <a className='hover:text-white'
                              href={link.href}
@@ -73,9 +70,9 @@ const Footer = () => {
           </div>
 
           <div>
-                <h3 className='text-md font-bold mb-4 text-[#40196d]'>Transparency</h3>
+                <h3 className='text-md font-bold mb-4 text-[#40196d]'>Canada</h3>
                 <ul className='space-y-2'>
-                    {Transparency.map((link, index) => (
+                    {Canada.map((link, index) => (
                         <li key={index}>
                             <a className='hover:text-white'
                              href={link.href}
@@ -86,9 +83,9 @@ const Footer = () => {
                     ))}
                 </ul>
           </div>
-    
+
     </div>
   )
 }
 
-export default Footer
+export default Sub_footer
