@@ -4,7 +4,7 @@ import { features } from '../constants'
 
 const Second = () => {
   return (
-    <div className='flex flex-wrap mt-10 lg:mt-20 m-60 justify-center '>
+    <div className='flex flex-wrap mt-10 lg:mt-20 m-60 justify-center'>
         {features.map((feature, index) => (
             <div key={index} className="w-32 h-30 sm:1/2 lg:w-1/3 mt-32 pt-4 shadow-bar_shadow  justify-between">
                 <div className='flex h-6  w-6 p-4 border-neutral bg-[#40196d]

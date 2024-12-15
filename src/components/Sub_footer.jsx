@@ -6,9 +6,9 @@ import { Canada } from '../constants'
 
 const Sub_footer = () => {
   return (
+    <div className='pt-20'>
+           <p className=' flex justify-center items-center text-[#40196d]'>Products may vary by country or market.</p>
     <div className='flex justify-center space-x-12 pt-20'>
-        <p className=' flex justify-center items-center text-[#40196d]'>Products may vary by country or market.</p>
-
         <div>
                 <h3 className='text-md font-bold mb-4 text-[#40196d]'>Contact</h3>
                 <ul className='space-y-2'>
@@ -84,6 +84,7 @@ const Sub_footer = () => {
                 </ul>
           </div>
 
+    </div>
     </div>
   )
 }
