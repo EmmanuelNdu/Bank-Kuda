@@ -17,7 +17,7 @@ const Footer = () => {
                 <ul className='space-y-2'>
                     {personal.map((link, index) => (
                         <li key={index}>
-                            <a className='hover:text-white'
+                            <a className='hover:text-white text-sm'
                              href={link.href}
                              >
                                 {link.text}
@@ -32,7 +32,7 @@ const Footer = () => {
                 <ul className='space-y-2'>
                     {Business.map((link, index) => (
                         <li key={index}>
-                            <a className=' hover:text-white'
+                            <a className=' hover:text-white text-sm'
                              href={link.href}
                              >
                                 {link.text}
@@ -47,7 +47,7 @@ const Footer = () => {
                 <ul className='space-y-2'>
                     {company.map((link, index) => (
                         <li key={index}>
-                            <a className='hover:text-white'
+                            <a className='hover:text-white text-sm'
                              href={link.href}
                              >
                                 {link.text}
@@ -62,7 +62,7 @@ const Footer = () => {
                 <ul className='space-y-2'>
                     {Help.map((link, index) => (
                         <li key={index}>
-                            <a className='hover:text-white'
+                            <a className='hover:text-white text-sm'
                              href={link.href}
                              >
                                 {link.text}
@@ -77,7 +77,7 @@ const Footer = () => {
                 <ul className='space-y-2'>
                     {Transparency.map((link, index) => (
                         <li key={index}>
-                            <a className='hover:text-white'
+                            <a className='hover:text-white text-sm'
                              href={link.href}
                              >
                                 {link.text}

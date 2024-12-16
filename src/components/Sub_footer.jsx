@@ -14,7 +14,7 @@ const Sub_footer = () => {
                 <ul className='space-y-2'>
                     {contact.map((link, index) => (
                         <li key={index}>
-                            <a className='hover:text-white'
+                            <a className='hover:text-white text-sm'
                              href={link.href}
                              >
                                 {link.text}
@@ -29,7 +29,7 @@ const Sub_footer = () => {
                 <ul className='space-y-2'>
                     {lagos.map((link, index) => (
                         <li key={index}>
-                            <a className='hover:text-white'
+                            <a className='hover:text-white text-sm'
                              href={link.href}
                              >
                                 {link.text}
@@ -44,7 +44,7 @@ const Sub_footer = () => {
                 <ul className='space-y-2'>
                     {London.map((link, index) => (
                         <li key={index}>
-                            <a className='hover:text-white'
+                            <a className='hover:text-white text-sm'
                              href={link.href}
                              >
                                 {link.text}
@@ -59,7 +59,7 @@ const Sub_footer = () => {
                 <ul className='space-y-2'>
                     {Capetown.map((link, index) => (
                         <li key={index}>
-                            <a className='hover:text-white'
+                            <a className='hover:text-white text-sm'
                              href={link.href}
                              >
                                 {link.text}
@@ -74,7 +74,7 @@ const Sub_footer = () => {
                 <ul className='space-y-2'>
                     {Canada.map((link, index) => (
                         <li key={index}>
-                            <a className='hover:text-white'
+                            <a className='hover:text-white text-sm'
                              href={link.href}
                              >
                                 {link.text}

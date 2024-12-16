@@ -1,4 +1,4 @@
-import { Check, Coins, CreditCard, Fingerprint } from "lucide-react";
+import { Check, Coins, CreditCard, Fingerprint} from "lucide-react";
 
 export const navItems = [
     { label: "Personal", href:"#" },
@@ -186,7 +186,7 @@ export const Transparency = [
 ]
 
 export const contact = [
-    {href: "#", text: "help@kuda.com,"}
+    {href: "#", text: "help@kuda.com,"},
 ];
 
 export const lagos = [
